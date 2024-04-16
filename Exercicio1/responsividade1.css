@@ -1,0 +1,43 @@
+body {
+	background-color: grey;
+	font-family: "Comic Sans MS", Arial;
+	font-size: 0.75em;
+}
+
+.div_classe1 {
+        border: double thick;
+		background-color: yellow;
+		color: black;
+		float: left;
+        width: 25%;
+		font-size: 0.83em;
+}
+
+.div_classe1 p {
+    font-size: 0.58em /*7px;*/
+}
+
+.div_classe2 {
+        border: double thick;
+ 		background-color: yellow;
+		color: black;
+        float: right;
+		width: 42%; /*450px;*/
+        font-size: 0.83em;
+}
+
+.formatatexto {
+	    text-align: justify;
+		color: white;
+        font-size: 0.75em; /*9px;*/
+}
+
+figure {
+	clear: both;
+	text-align:center;
+}
+
+.img1, .img2, .img3 {
+	width: 25%; 
+}
+

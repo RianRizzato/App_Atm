@@ -1,0 +1,19 @@
+h1 {
+    display: inline-block;
+}
+
+.verificado1 {
+    width: 18%;
+    float: right;
+}
+
+.verificado2 {
+    width: 60%;
+    float: right;
+}
+
+.lastdiv {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+﻿  body {
+	background-color: yellow;
+	font-family: Tahoma, Arial;
+	font-size: 20px;
+}
+
+.div_classe1 {
+        border: double thick;
+		background-color: green;
+		color: white;
+		float: left;
+        width: 25%;
+		font-size: 0.7em;
+}
+
+.div_classe2 {
+        border: double thick;
+ 		background-color: green;
+		color: white;
+        float: right;
+		width: 42%; /*450px;*/
+        font-size: 14px;
+}
+
+.formatatexto {
+	    text-align: justify;
+		color: #0000ff;
+}
+
+figure {
+	clear: both;
+	text-align:center;
+}
+
+
+.img1, .img2, .img3 {
+	width: 300px; 
+}

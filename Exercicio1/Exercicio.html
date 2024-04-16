@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <title>Exercício - responsividade</title>
+    <meta charset="UTF-8"/> 
+
+    <link rel="stylesheet" type="text/css"
+			media="screen and (min-width:900px)"
+	      href="responsividade2.css" /> 
+
+	<link rel="stylesheet" type="text/css"
+			media="screen and (min-width:450px) and (max-width:899px)"
+	      href="responsividade1.css" /> 
+
+	<link rel="stylesheet" type="text/css"
+			media="screen and (max-width:450px)"
+	      href="responsividade0.css" /> 
+
+		  <meta name="viewport"
+		  content="width=device-width, inicial-scale=1" />
+
+	<link rel="stylesheet" type="text/css"
+		  href="geral.css" />
+
+</head>
+<body>
+ 
+      <h1>Meta tag  Viewpoint</h1>
+
+	<picture class="verificado1">
+		<source media="(min-width: 900px)" 
+				srcset="verificado1.png">
+		<source media="(min-width: 451px)
+					and (max-width: 899px)"
+				srcset="verificado2.png">
+		<img src="Verificado3.png" 
+			 alt="selo de verificaçao"
+			 class="verificado2"/>
+	</picture>
+
+      <br /><br />
+	  <hr /> 
+      <p>Os navegadores de dispositivos móveis tentam exibir páginas
+         web feitas somente para desktop (a maioria delas), 
+		 ajustando automaticamente, o zoom do display, e isso pode 
+		 ser problemático para os sites que já foram planejados para 
+		 telas pequenas. Para resolver isso surgiu a meta tag 
+		 viewport. </p>
+       <br />
+	   <div class="div_classe1">
+	      <h3>Primeira DIV</h3>
+		  <p>Texto 1 contido dentro da DIV 1</p>
+		  <p>Texto 2 contido dentro da DIV 1</p>		  
+          <p>Texto 3 contido dentro da DIV 1</p>		  
+	   </div>
+	   <div class="div_classe2">
+	      <h3>Segunda DIV</h3>
+		  <p>Texto 1 contido dentro da DIV 2</p>
+		  <p>Texto 2 contido dentro da DIV 2</p>
+          <p>Texto 3 contido dentro da DIV 2</p>		  
+	   </div>
+	   <p class="formatatexto">Lorem ipsum dolor 
+	      sit amet, consectetur adipiscing elit. 
+		  Aenean suscipit magna vitae purus volutpat, 
+		  ut lacinia nulla consectetur. Nunc laoreet 
+		  purus in neque gravida tempor.</p>
+       <br />	   
+	   <figure>
+	      <img src="Imagem1.jpg" class="img1"
+		       alt="Imagem 1 - 3D" />
+	      <img src="Imagem2.jpg" class="img2" 
+		       alt="Imagem 2 - 3D" />
+	      <img src="Imagem3.jpg" class="img3"
+		       alt="Imagem 3 - 3D" />
+	   </figure>
+	   <br />
+       <p>Sua sintaxe é:  meta name="viewport"  content=""  </p>
+	   <p>No atributo content, é possível declarar uma diversidade de 
+	      parâmetros e valores conforme o tipo de visualização que se 
+		  configurar às paginas. Ou seja, com ela é possível mostrar 
+		  “resoluções personalizadas” aos visitantes para 
+		  determinados dispositivos."</p>
+		  <br>
+		  <br>
+
+		  <div class="lastdiv">
+			<picture class="lastdiv">
+				<source media="(min-width: 900px)" 
+						srcset="joinha1.png">
+				<source media="(min-width: 451px)
+							and (max-width: 900px)"
+						srcset="joinha2.jpg">
+				<img src="joinha3.png" 
+					 alt="Imagem de joinhas!"
+					 class="lastdiv"/>
+			</picture>
+		  </div>
+ </body>
+</html>

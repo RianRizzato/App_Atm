@@ -1,0 +1,38 @@
+body {
+	background-color: aquamarine;
+	font-family: "Garamond", Arial;
+	font-size: 0.625em /* 10px */;
+}
+
+.div_classe1 {
+        border: double thick;
+		background-color: white;
+		color: purple;
+		float: left;
+        width: 25%;
+		font-size: 0.6em; /*10px*/
+}
+
+.div_classe2 {
+        border: double thick;
+ 		background-color: green;
+		color: white;
+        float: right;
+		width: 42%; /*450px;*/
+        font-size: 0.6em; /*10px*/
+}
+
+.formatatexto {
+	    text-align: justify;
+		color: #cc3366;
+}
+
+figure {
+	clear: both;
+	text-align:center;
+}
+
+
+.img1, .img2, .img3 {
+	width: 20%; 
+}
